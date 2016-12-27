@@ -1,0 +1,18 @@
+This program mimics the system call 'ls'. Flags include '-a' or '-r'.
+
+Accepted Command Line Arguments:
+./a.out
+./a.out -a
+./a.out directoryNameHere
+./a.out directoryNameHere -a
+./a.out directoryNameHere -r
+./a.out -r
+
+Dependencies:
+Download apue.3e from the following site: http://www.apuebook.com/code3e.html
+
+Compilation example:
+gcc -I./apue.3e/include -L./apue.3e/lib  newLs.c -lapue
+
+Run example:
+./a.out
